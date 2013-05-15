@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ~/voice_control/scripts
+tts This is the weather for `./daysuffix`
+python bbcweather.py 2647044 | tr "." "\n" | while read line; do tts $line; sleep 1; done
+tts "This concludes the forecast."

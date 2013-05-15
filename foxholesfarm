@@ -1,0 +1,27 @@
+#!/bin/bash
+
+d=`./day`
+
+t=""
+
+case $d in
+	"Monday" )
+		t="8.30am to 5.30pm" ;;
+	"Tuesday" )
+		t="8.30am to 5.30pm" ;;
+	"Wednesday" )
+		t="8.30am to 5.30pm" ;;
+	"Thursday" )
+		t="8.30am to 6pm" ;;
+	"Friday" )
+		t="8.30am to 6pm" ;;
+	"Saturday" )
+		t="8am to 5pm" ;;
+	"Sunday" )
+		t="10am to 4pm" ;;
+esac	
+
+ds=$d"s"
+
+tts "Fox-holes Farm is open from $t on $ds, and on bank holidays from 10am to 4pm."
+

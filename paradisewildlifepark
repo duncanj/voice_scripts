@@ -1,0 +1,3 @@
+#!/bin/bash
+tts "Paradise Wildlife Park is open every day throughout the year from 9.30AM, except September 22nd."
+tts "Last entry is at 5pm or 6pm in the summer."

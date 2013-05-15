@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/voice_control/scripts
+result=`python knebworth.py`
+tts $result
