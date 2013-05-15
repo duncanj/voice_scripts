@@ -13,9 +13,11 @@ Instructions
 ============
 
 First, install git: 
+
     sudo apt-get install git
 
 Second, clone this github repository: 
+
     git clone https://github.com/duncanj/voice_scripts.git
 
 This will create a voice_scripts directory, containing the same scripts as you see on the github page.
@@ -23,6 +25,7 @@ This will create a voice_scripts directory, containing the same scripts as you s
 
 Edit your voicecommand config file (voicecommand -e) and add commands that run the scripts in this directory.
 e.g.
+
     weather forecast==~/your_path_to_this_directory/bbcweather
 
 In the case of the bbcweather script, it passes in a location code (currently Hertford, United Kingdom).  You may wish to customize this - see the script for more details.
