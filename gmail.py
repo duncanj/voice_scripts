@@ -1,6 +1,6 @@
 import urllib2
  
-USERNAME = 'duncan.jauncey'
+USERNAME = ''
 PASSWORD = ''
 FEED_URL = 'https://mail.google.com/mail/feed/atom'
  
