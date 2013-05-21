@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/voice_control/scripts
+python whichPlane.py | while read line; do tts $line; sleep 1; done
