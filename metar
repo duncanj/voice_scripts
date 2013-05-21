@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/voice_control/scripts
+python metar.py | while read line; do tts $line; sleep 1; done
+tts "End of report."
